@@ -15,7 +15,7 @@ TODO: Fill in this table with correct information.
 
 | Table                     | Name         | Github Id     |
 |---------------------------|--------------|---------------|
-| UCSBDiningCommonsMenuItem | Rohan N.     | nickkamenica  |
+| UCSBDiningCommonsMenuItem | Rohan N.     | rohannihalani |
 | UCSBOrganization          | Pranav G.    | pgunhal       |
 | RecommendationRequest     | Arya S.      | AryaSadeghi21 |
 | MenuItemReview            | Joaquin W.   | Joaquin-Wong  |
