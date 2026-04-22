@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: []
+pull_requests: [{"author":{"id":"MDQ6VXNlcjg5ODE4MjE3","is_bot":false,"login":"pgunhal","name":"Pranav Gunhal"},"headRefName":"update-readme-with-table","number":43,"title":"Add table to Readme.md","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/43"}]
