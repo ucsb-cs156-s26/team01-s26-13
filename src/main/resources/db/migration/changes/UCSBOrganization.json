@@ -1,7 +1,7 @@
 { "databaseChangeLog": [
     {
         "changeSet": {
-          "id": "UCSBOrganizations",
+          "id": "UCSBOrganization",
           "author": "pgunhal",
           "preConditions": [
             {
@@ -11,7 +11,7 @@
               "not": [
                 {
                   "tableExists": {
-                    "tableName": "UCSBORGANIZATIONS"
+                    "tableName": "UCSBORGANIZATION"
                   }
                 }
               ]
@@ -25,21 +25,21 @@
                     "column": {
                       "constraints": {
                         "primaryKey": true,
-                        "primaryKeyName": "ORGANIZATIONS_PK"
+                        "primaryKeyName": "UCSBORGANIZATION_PK"
                       },
-                      "name": "ORGCODE",
+                      "name": "ORG_CODE",
                       "type": "VARCHAR(255)"
                     }
                   },
                   {
                     "column": {
-                      "name": "ORGTRANSLATIONSHORT",
+                      "name": "ORG_TRANSLATION_SHORT",
                       "type": "VARCHAR(255)"
                     }
                   },
                    {
                     "column": {
-                      "name": "ORGTRANSLATION",
+                      "name": "ORG_TRANSLATION",
                       "type": "VARCHAR(255)"
                     }
                   },
@@ -53,7 +53,7 @@
                     }
                   }
                 ],
-                "tableName": "UCSBORGANIZATIONS"
+                "tableName": "UCSBORGANIZATION"
               }
             }]
 

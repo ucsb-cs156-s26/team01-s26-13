@@ -8,14 +8,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author: pgunha This is a JPA entity that represents a UCSBOrganization
- *     <p>A UCSBOrganization is a dining commons at UCSB
+ * This is a JPA entity that represents a UCSBOrganization
+ *
+ * <p>A UCSBOrganization is an organization at UCSB
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Entity(name = "ucsbOrganization")
+@Entity(name = "ucsborganization")
 public class UCSBOrganization {
   @Id private String orgCode;
 
