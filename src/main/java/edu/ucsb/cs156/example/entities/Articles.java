@@ -2,9 +2,15 @@ package edu.ucsb.cs156.example.entities;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity(name = "articles")
 public class Articles {
 
