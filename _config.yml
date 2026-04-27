@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: [{"author":{"id":"U_kgDOCyANAw","is_bot":false,"login":"Joaquin-Wong","name":""},"headRefName":"Joaquin-MenuItemReview-create-db","number":47,"title":"jw - create database table for menuitemreviews","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/47"}]
+pull_requests: [{"author":{"id":"MDQ6VXNlcjc5ODYzNTE4","is_bot":false,"login":"rohannihalani","name":"Rohan Nihalani"},"headRefName":"Rohan-create-tables-UCSB-dining","number":48,"title":"Rohan - create UCSBDiningCommonsMenuItem Database table","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/48"},{"author":{"id":"U_kgDOCyANAw","is_bot":false,"login":"Joaquin-Wong","name":""},"headRefName":"Joaquin-MenuItemReview-create-db","number":47,"title":"jw - create database table for menuitemreviews","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/47"}]
