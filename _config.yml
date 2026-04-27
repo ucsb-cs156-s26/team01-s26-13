@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: [{"author":{"id":"U_kgDOCVHkOQ","is_bot":false,"login":"nickkamenica","name":""},"headRefName":"articles-table-nick","number":46,"title":"Make Article table, deployed on localhost and on dokku server","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/46"}]
+pull_requests: []
