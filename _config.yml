@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: [{"author":{"id":"U_kgDOCyANAw","is_bot":false,"login":"Joaquin-Wong","name":""},"headRefName":"Joaquin-MenuItemReview-create-controller","number":50,"title":"Create controller with GET and POST endpoints to MenuItemReview Table","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/50"}]
+pull_requests: [{"author":{"id":"U_kgDOCyANAw","is_bot":false,"login":"Joaquin-Wong","name":""},"headRefName":"Joaquin-MenuItemReview-get-by-id","number":51,"title":"Joaquin - add GET by id in controller for menu item reviews","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/51"},{"author":{"id":"U_kgDOCyANAw","is_bot":false,"login":"Joaquin-Wong","name":""},"headRefName":"Joaquin-MenuItemReview-create-controller","number":50,"title":"Create controller with GET and POST endpoints to MenuItemReview Table","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/50"}]
