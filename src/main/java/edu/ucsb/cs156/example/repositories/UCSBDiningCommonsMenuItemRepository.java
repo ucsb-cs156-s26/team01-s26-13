@@ -11,4 +11,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 @RepositoryRestResource(exported = false)
 public interface UCSBDiningCommonsMenuItemRepository
-    extends CrudRepository<UCSBDiningCommonsMenuItem, String> {}
+    extends CrudRepository<UCSBDiningCommonsMenuItem, Long> {}
