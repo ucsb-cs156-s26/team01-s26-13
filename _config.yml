@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: [{"author":{"id":"U_kgDOCVHkOQ","is_bot":false,"login":"nickkamenica","name":""},"headRefName":"articles-delete-nick","number":67,"title":"add delete endpoint, article","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/67"}]
+pull_requests: []
