@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: [{"author":{"id":"U_kgDOBqmR9Q","is_bot":false,"login":"safwanmrahman","name":""},"headRefName":"Safwan-HelpRequest-Get","number":66,"title":"Add GET endpoint for HelpRequest by id w/ full test coverage","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/66"},{"author":{"id":"U_kgDOCVHkOQ","is_bot":false,"login":"nickkamenica","name":""},"headRefName":"articles-put-endpoint","number":65,"title":"add put endpoint articles","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/65"}]
+pull_requests: [{"author":{"id":"U_kgDOBqmR9Q","is_bot":false,"login":"safwanmrahman","name":""},"headRefName":"Safwan-HelpRequest-Get","number":66,"title":"Add GET endpoint for HelpRequest by id w/ full test coverage","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/66"}]
