@@ -215,7 +215,7 @@ public class UCSBOrganizationControllerTests extends ControllerTestCase {
 
     UCSBOrganization acmEdited =
         UCSBOrganization.builder()
-            .orgCode("acm")
+            .orgCode("acm-updated")
             .orgTranslationShort("acm organization")
             .orgTranslation("Association of Computing Machinery Industry")
             .inactive(true)
