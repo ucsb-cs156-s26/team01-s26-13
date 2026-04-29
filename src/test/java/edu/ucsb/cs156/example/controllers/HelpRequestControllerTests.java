@@ -29,7 +29,6 @@ import org.springframework.test.web.servlet.MvcResult;
 public class HelpRequestControllerTests extends ControllerTestCase {
 
   @MockitoBean HelpRequestRepository helpRequestRepository;
-
   @MockitoBean UserRepository userRepository;
 
   @Test
