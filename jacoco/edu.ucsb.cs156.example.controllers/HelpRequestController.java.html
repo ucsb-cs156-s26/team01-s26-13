@@ -2,6 +2,7 @@
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import edu.ucsb.cs156.example.entities.HelpRequest;
+import edu.ucsb.cs156.example.errors.EntityNotFoundException;
 import edu.ucsb.cs156.example.repositories.HelpRequestRepository;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -21,8 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Tag(name = &quot;HelpRequest&quot;)
 @RequestMapping(&quot;/api/helprequests&quot;)
 @RestController
-<span class="fc" id="L24">@Slf4j</span>
-<span class="fc" id="L25">public class HelpRequestController extends ApiController {</span>
+<span class="fc" id="L25">@Slf4j</span>
+<span class="fc" id="L26">public class HelpRequestController extends ApiController {</span>
 
   @Autowired HelpRequestRepository helpRequestRepository;
 
@@ -31,8 +32,21 @@ import org.springframework.web.bind.annotation.RestController;
   @PreAuthorize(&quot;hasRole('ROLE_USER')&quot;)
   @GetMapping(&quot;/all&quot;)
   public Iterable&lt;HelpRequest&gt; allHelpRequests() {
-<span class="fc" id="L34">    Iterable&lt;HelpRequest&gt; helpRequests = helpRequestRepository.findAll();</span>
-<span class="fc" id="L35">    return helpRequests;</span>
+<span class="fc" id="L35">    Iterable&lt;HelpRequest&gt; helpRequests = helpRequestRepository.findAll();</span>
+<span class="fc" id="L36">    return helpRequests;</span>
+  }
+
+  /** Get a single HelpRequest */
+  @Operation(summary = &quot;Get a single HelpRequest&quot;)
+  @PreAuthorize(&quot;hasRole('ROLE_USER')&quot;)
+  @GetMapping(&quot;&quot;)
+  public HelpRequest getHelpRequestById(@Parameter(name = &quot;id&quot;) @RequestParam Long id) {
+<span class="fc" id="L44">    HelpRequest helpRequest =</span>
+        helpRequestRepository
+<span class="fc" id="L46">            .findById(id)</span>
+<span class="fc" id="L47">            .orElseThrow(() -&gt; new EntityNotFoundException(HelpRequest.class, id));</span>
+
+<span class="fc" id="L49">    return helpRequest;</span>
   }
 
   /** Create a new HelpRequest */
@@ -53,19 +67,19 @@ import org.springframework.web.bind.annotation.RestController;
       @Parameter(name = &quot;solved&quot;) @RequestParam boolean solved)
       throws JsonProcessingException {
 
-<span class="fc" id="L56">    log.info(&quot;requestTime={}&quot;, requestTime);</span>
+<span class="fc" id="L70">    log.info(&quot;requestTime={}&quot;, requestTime);</span>
 
-<span class="fc" id="L58">    HelpRequest helpRequest = new HelpRequest();</span>
-<span class="fc" id="L59">    helpRequest.setRequesterEmail(requesterEmail);</span>
-<span class="fc" id="L60">    helpRequest.setTeamId(teamId);</span>
-<span class="fc" id="L61">    helpRequest.setTableOrBreakoutRoom(tableOrBreakoutRoom);</span>
-<span class="fc" id="L62">    helpRequest.setRequestTime(requestTime);</span>
-<span class="fc" id="L63">    helpRequest.setExplanation(explanation);</span>
-<span class="fc" id="L64">    helpRequest.setSolved(solved);</span>
+<span class="fc" id="L72">    HelpRequest helpRequest = new HelpRequest();</span>
+<span class="fc" id="L73">    helpRequest.setRequesterEmail(requesterEmail);</span>
+<span class="fc" id="L74">    helpRequest.setTeamId(teamId);</span>
+<span class="fc" id="L75">    helpRequest.setTableOrBreakoutRoom(tableOrBreakoutRoom);</span>
+<span class="fc" id="L76">    helpRequest.setRequestTime(requestTime);</span>
+<span class="fc" id="L77">    helpRequest.setExplanation(explanation);</span>
+<span class="fc" id="L78">    helpRequest.setSolved(solved);</span>
 
-<span class="fc" id="L66">    HelpRequest savedHelpRequest = helpRequestRepository.save(helpRequest);</span>
+<span class="fc" id="L80">    HelpRequest savedHelpRequest = helpRequestRepository.save(helpRequest);</span>
 
-<span class="fc" id="L68">    return savedHelpRequest;</span>
+<span class="fc" id="L82">    return savedHelpRequest;</span>
   }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.12.202403310830</span></div></body></html>
