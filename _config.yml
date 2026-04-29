@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: [{"author":{"id":"MDQ6VXNlcjg5ODE4MjE3","is_bot":false,"login":"pgunhal","name":"Pranav Gunhal"},"headRefName":"pranav-ucsborganization-controllers","number":59,"title":"Add controller for UCSB Organization and tested with 100% coverage","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/59"}]
+pull_requests: [{"author":{"id":"U_kgDOCVHkOQ","is_bot":false,"login":"nickkamenica","name":""},"headRefName":"articles-get-nick","number":60,"title":"add GET endpoint for article","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/60"},{"author":{"id":"MDQ6VXNlcjg5ODE4MjE3","is_bot":false,"login":"pgunhal","name":"Pranav Gunhal"},"headRefName":"pranav-ucsborganization-controllers","number":59,"title":"Add controller for UCSB Organization and tested with 100% coverage","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/59"}]
