@@ -23,4 +23,4 @@ repo_name: "TBD"
 repo: ucsb-cs156-s26/team01-s26-13
 owner: ucsb-cs156-s26
 repo_name: team01-s26-13
-pull_requests: [{"author":{"id":"U_kgDOBqmR9Q","is_bot":false,"login":"safwanmrahman","name":""},"headRefName":"Safwan-HelpRequest-create-db","number":58,"title":"Add HelpRequest table, entity, repository","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/58"}]
+pull_requests: [{"author":{"id":"MDQ6VXNlcjg5ODE4MjE3","is_bot":false,"login":"pgunhal","name":"Pranav Gunhal"},"headRefName":"pranav-ucsborganization-controllers","number":59,"title":"Add controller for UCSB Organization and tested with 100% coverage","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/59"},{"author":{"id":"U_kgDOBqmR9Q","is_bot":false,"login":"safwanmrahman","name":""},"headRefName":"Safwan-HelpRequest-create-db","number":58,"title":"Add HelpRequest table, entity, repository","url":"https://github.com/ucsb-cs156-s26/team01-s26-13/pull/58"}]
